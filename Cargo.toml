@@ -1,0 +1,12 @@
+[package]
+name = "llm-stream-accumulator"
+version = "0.1.0"
+edition = "2021"
+description = "Accumulate LLM streaming chunks into a complete response"
+license = "MIT"
+repository = "https://github.com/MukundaKatta/llm-stream-accumulator-rs"
+keywords = ["llm", "streaming", "accumulator", "sse", "agent"]
+categories = ["text-processing"]
+exclude = ["target/*", ".github/*", "*.log"]
+
+[dependencies]
